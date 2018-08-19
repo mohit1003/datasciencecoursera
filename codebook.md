@@ -7,19 +7,21 @@ See the `README.md` file of this repository for background information on this d
 The structure of the data set is described in the Data section, its variables are listed in the Variables section, and the transformations that were carried out to obtain the data set based on the source data are presented in the Transformations section.
 
 **Data**
+
 The tidy_data.txt data file is a text file, containing space-separated values.
 
 The first row contains the names of the variables, which are listed and described in the Variables section, and the following rows contain the values of these variables.
 
 **Variables**
+
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
 **Identifiers**
-subject
 
-Subject identifier, integer, ranges from 1 to 30.
+subject, Subject identifier, integer, ranges from 1 to 30.
 
 **activity**
+
 Activity identifier, string with 6 possible values:
 
 WALKING: subject was walking
@@ -41,7 +43,9 @@ The measurements are classified in two domains:
 
 *Frequency-domain signals* (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
 
-###### Time-domain signals
+
+##### Time-domain signals
+
 Average time-domain body acceleration in the X, Y and Z directions:
 
 timeDomainBodyAccelerometerMeanX
@@ -113,7 +117,9 @@ Average and standard deviation of the time-domain magnitude of body angular velo
 timeDomainBodyGyroscopeJerkMagnitudeMean
 timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
 
-###### Frequency-domain signals
+
+##### Frequency-domain signals
+
 Average frequency-domain body acceleration in the X, Y and Z directions:
 
 frequencyDomainBodyAccelerometerMeanX
