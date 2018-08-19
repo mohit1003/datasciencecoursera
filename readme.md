@@ -30,6 +30,6 @@ The R script run_analysis.R can be used to create the data set. It retrieves the
 - [x] Appropriately label the data set with descriptive variable names.
 - [x] Create a second, independent tidy set with the average of each variable for each activity and each subject.
 - [x] Write the data set to the tidy_data.txt file.
-The tidy_data.txt in this repository was created by running the run_analysis.R script using R version 3.2.3 (2015-12-10) on Ubuntu 16.4.
 
+The tidy_data.txt in this repository was created by running the run_analysis.R script using R version 3.2.3 (2015-12-10) on Ubuntu 16.4.
 This script requires the dplyr package (version 0.7.4 was used).
